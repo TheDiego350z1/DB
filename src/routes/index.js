@@ -4,6 +4,8 @@ import getHash from "../utils/getHash";
 import resolveRoutes from "../utils/resolveRoutes";
 import Historia from "../pages/Historia";
 import Nav from "../templates/Nav";
+import Caracteristicas from "../pages/Caracteristicas";
+
 
 
 /**
@@ -13,7 +15,8 @@ import Nav from "../templates/Nav";
 const routes = {
     '/': Home,
     '/contact': 'Contact',
-    '/historia': Historia
+    '/historia': Historia,
+    '/caracteristicas': Caracteristicas
 };
 
 const router = async () => {

@@ -6,7 +6,9 @@ const Nav = () => {
 
     const view = Post.forEach(e => {
         rigthNav.innerHTML += `
-            <a href="${e.url}">${e.name}</a>
+            <a class="link-nav" href="${e.url}">
+                <spam>${e.name}</spam>
+            </a>
     `});
     return view;
 };

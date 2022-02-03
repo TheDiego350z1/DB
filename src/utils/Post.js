@@ -6,6 +6,10 @@ const Post = [
     {
         name: 'Características',
         url: '#/caracteristicas/'
+    },
+    {
+        name: 'Ventajas y Desventajas',
+        url: '#/ventajas-desventajas/'
     }
 ];
 
