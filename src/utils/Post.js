@@ -1,7 +1,11 @@
 const Post = [
     {
-        name: 'Historia de las base de datos',
+        name: 'Historia de las Base de Datos',
         url: '#/historia/'
+    },
+    {
+        name: 'Características',
+        url: '#/caracteristicas/'
     }
 ];
 
