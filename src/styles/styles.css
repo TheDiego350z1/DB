@@ -2,3 +2,7 @@ body {
     /* Fuente */
     font-family: 'Roboto', sans-serif;
 }
+
+h1{
+    font-weight: bold;
+}

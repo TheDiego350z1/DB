@@ -9,6 +9,7 @@ const Nav = () => {
             <a class="link-nav" href="${e.url}">
                 <spam>${e.name}</spam>
             </a>
+            <br>
     `});
     return view;
 };

@@ -5,6 +5,9 @@ import resolveRoutes from "../utils/resolveRoutes";
 import Historia from "../pages/Historia";
 import Nav from "../templates/Nav";
 import Caracteristicas from "../pages/Caracteristicas";
+import VentajasDesventajas from "../pages/VentajasDesventajas";
+import OraclePosgress from "../pages/OraclePosgress";
+import Comparacion from "../pages/Comparacion";
 
 
 
@@ -16,7 +19,10 @@ const routes = {
     '/': Home,
     '/contact': 'Contact',
     '/historia': Historia,
-    '/caracteristicas': Caracteristicas
+    '/caracteristicas': Caracteristicas,
+    '/ventajas-desventajas': VentajasDesventajas,
+    '/oracle-vs-posgres': OraclePosgress,
+    '/mysql-vs-sqlserver': Comparacion
 };
 
 const router = async () => {
