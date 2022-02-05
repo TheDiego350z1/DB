@@ -1,7 +1,7 @@
 const Comparacion = () => {
     const view = `
         <h1>Comparación entre MySQL vs SQL Server</h1>
-        <table>
+        <table class="table table-bordered border-dark">
             <tbody>
                 <tr>
                     <th></th>

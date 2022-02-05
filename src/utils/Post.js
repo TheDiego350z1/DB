@@ -18,6 +18,10 @@ const Post = [
     {
         name: 'SQL Server VS MySQL',
         url: '#/mysql-vs-sqlserver/'
+    },
+    {
+        name: 'Licenciamiento',
+        url: '#/licenciamiento'
     }
 ];
 
