@@ -10,6 +10,7 @@ import OraclePosgress from "../pages/OraclePosgress";
 import Comparacion from "../pages/Comparacion";
 import Licencias from "../pages/Licencias";
 import SqlVsNoSql from "../pages/SqlVsNoSql";
+import Referencias from "../pages/Referencias";
 
 
 /**
@@ -25,7 +26,8 @@ const routes = {
     '/oracle-vs-posgres': OraclePosgress,
     '/mysql-vs-sqlserver': Comparacion,
     '/licenciamiento': Licencias,
-    '/sql-o-nosql': SqlVsNoSql
+    '/sql-o-nosql': SqlVsNoSql,
+    '/referencias': Referencias
 };
 
 const router = async () => {
@@ -33,7 +35,6 @@ const router = async () => {
     const content = null || document.getElementById('content');
     const rightNav = null || document.getElementById('rigthNav');
     // const rightNav = null || document.getElementById('rigth-nav');
-    console.log(rightNav);
 
     header.innerHTML = await Header();
     

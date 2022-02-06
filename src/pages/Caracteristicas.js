@@ -1,6 +1,8 @@
 const Caracteristicas = () => {
     const view = `
         <h1>Cáracteristicas</h1>
+        <br>
+        <br>
         <p>Entre las pricipales cáracteristicas de los sistemas de base de datos podemos mencionar:</p>
         <ul>
             <li>Independencia lógica y física de los datos</li>
@@ -12,6 +14,11 @@ const Caracteristicas = () => {
             <li>Respaldo y recuperación</li>
             <li>Acceso a tráves de lenguajes de programación</li>
         </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     `;
     return view;
 };

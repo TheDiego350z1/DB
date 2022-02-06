@@ -26,6 +26,10 @@ const Post = [
     {
         name: 'SQL o NoSQL',
         url: '#/sql-o-nosql'
+    },
+    {
+        name: 'Referencias',
+        url: '#/referencias'
     }
 ];
 

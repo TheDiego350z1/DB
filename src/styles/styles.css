@@ -13,6 +13,16 @@ h1{
     margin-top: 10px;
 }
 
+.content-home {
+    height: 90px;
+    box-shadow: 0 0 5px rgb(7, 44, 15);
+    margin-bottom: 20px;
+}
+
+.content-home h5{
+    margin-left: 10px;
+}
+
 .title--nav{
     height: 40px;
     box-shadow: 0 0 5px rgb(7, 44, 15);
