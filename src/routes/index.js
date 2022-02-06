@@ -9,6 +9,7 @@ import VentajasDesventajas from "../pages/VentajasDesventajas";
 import OraclePosgress from "../pages/OraclePosgress";
 import Comparacion from "../pages/Comparacion";
 import Licencias from "../pages/Licencias";
+import SqlVsNoSql from "../pages/SqlVsNoSql";
 
 
 /**
@@ -23,7 +24,8 @@ const routes = {
     '/ventajas-desventajas': VentajasDesventajas,
     '/oracle-vs-posgres': OraclePosgress,
     '/mysql-vs-sqlserver': Comparacion,
-    '/licenciamiento': Licencias
+    '/licenciamiento': Licencias,
+    '/sql-o-nosql': SqlVsNoSql
 };
 
 const router = async () => {

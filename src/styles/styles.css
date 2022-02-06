@@ -1,13 +1,38 @@
 body {
     /* Fuente */
     font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: linear-gradient(to right top, #1f65d1, #008adb, #00a1b1, #00af71, #90b340);
 }
 
 h1{
     font-weight: bold;
 }
 
+.main{
+    margin-top: 10px;
+}
+
+.title--nav{
+    height: 40px;
+    box-shadow: 0 0 5px rgb(7, 44, 15);
+    font-size: 30px;
+}
+
+.title--nav__one{
+    text-transform: uppercase;
+    text-align: center;
+    height: 25px;
+}
+
+.link-nav{ 
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
 /* FOOTER */
 .pie {
-    height: 100px;
+    height: 130px;
 }

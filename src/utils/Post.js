@@ -22,6 +22,10 @@ const Post = [
     {
         name: 'Licenciamiento',
         url: '#/licenciamiento'
+    },
+    {
+        name: 'SQL o NoSQL',
+        url: '#/sql-o-nosql'
     }
 ];
 
